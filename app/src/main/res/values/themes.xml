@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Evento" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@color/dark_grey</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
+    <style name="Theme.Evento" parent="Base.Theme.Evento" >
+        <item name="android:windowContentTransitions">true</item>
+        <item name="floatingActionButtonLargePrimaryStyle">@color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:progressTint">@color/blue</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+             <item name="backgroundColor">@color/black</item>
+             <item name="android:textSize">12dp</item>
+    </style>
+    <style name="MaterialTheme" parent="Theme.Material3.Light.NoActionBar">
+    </style>
+    <style name="navigationTheme">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorControlHighlight">@color/pink</item>
+    </style>
+
+</resources>

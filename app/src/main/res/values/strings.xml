@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">BookMyEvent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="feed_about">
+        <item>Casual streetside restaurant and bar with an atmospheric interior serving a mixed-fare menu.</item>
+        <item>This luxurious hotel is the perfect venue for all those of you who dream of a lavish wedding day. Their courtyard and rooftop area exudes both regality and charisma that will leave your guests enthralled on your special day. Plus, every nook over here is the perfect background for those dreamy photos that will probably end up in your living room.</item>
+        <item>The interiors of Hotel Clay Inn are aesthetic and modern. Hotel Clay Inn is mainly booked for Cocktail Party, Haldi Ceremony and Wedding Anniversary. The hall area of Hotel Clay Inn is big and beautiful and can host upto 450 people.</item>
+        <item>Looking for Best Banquet Halls in Peeragarhi, Perfect guest gathering space with the accumulation of around 800 people was one of the main reasons we chose this place since the event was to be made GRAND.</item>
+    </string-array>
+    <string-array name="feed_price">
+        <item>12000</item>
+        <item>60000</item>
+        <item>20000</item>
+        <item>35000</item>
+    </string-array>
+    <string-array name="feed_one_desc">
+        <item>Full Bar Available</item>
+        <item>Family Friendly</item>
+        <item>Takeaway Available</item>
+        <item>Home Delivery</item>
+        <item>Desserts and Bakes</item>
+    </string-array>
+    <string-array name="feed_two_desc">
+        <item>Supreme hospitality</item>
+        <item>Great View of Nature</item>
+        <item>Decoration for different cultures</item>
+        <item>Delicious Indian cuisines and others as well</item>
+    </string-array>
+    <string-array name="feed_three_desc">
+        <item>In house catering only</item>
+        <item>Outside Decorators permitted</item>
+        <item>In house DJ available, Outside DJ permitted</item>
+        <item>In house alcohol available, Outside alcohol permitted</item>
+
+    </string-array>
+    <string-array name="feed_four_desc">
+        <item>Supreme hospitality</item>
+        <item>Fully furnished banquet hall</item>
+        <item>Graceful interiors</item>
+        <item>Delicious Indian cuisines and others as well</item>
+        <item>Free valet parking</item>
+        <item>Fully equipped modern kitchen chefs</item>
+        <item>Capacity to accommodate 800 people and more</item>
+    </string-array>
+
+    <string-array name="food_about">
+        <item>Kiyan at The Roseate New Delhi is the resort’s all day world cuisine restaurant serving predominantly European, Indian and Thai. The restaurant is set amidst Isfahan columns surrounded by royal blue water bodies. Discover masterpieces on every platter that offers you the ideal ‘Farm to Table’ concept with fare from select organic, home grown vegetables from our 2 acre farm and free range meat. Each dish on the menu has been handcrafted by our expert chefs.</item>
+        <item>If you’re craving a luxury French dinner, then this is on top of the best French restaurants list for you. Romantic candle light nights with scallops and crème brulee with bae can never go wrong here. The 10th floor views are amazing too! This place has been on top of the French restaurants list for ever. We wonder if REVE is about to take over.</item>
+        <item>Perfect for romance, Veda is one restaurant that will really grab your attention. The interiors were crafted by Rohit Bal, a lauded Indian fashion designer, and everything flickers and shimmers. Candles, mirrors, chandeliers, and an embellished glass dome are set against a backdrop of deep red velvet curtains and exposed brickwork. The menu features Indian cuisine with a contemporary twist, and theres a special tasting menu that has small portions of a selection of items.</item>
+        <item>With the weekend just around the corner, we cannot help but plan out all the delicious food we want to eat over the weekend. Whenever we go out, whether it is with friends or with family, we always end up eating a pizza or pasta. Italian is probably one of the most enjoyed cuisines in India! If you are wondering, where you can get the best of Italian cuisine within Delhi-NCR, then this shall be your food guide to the citys restaurants and cafes</item>
+    </string-array>
+    <string-array name="food_price">
+        <item>2000</item>
+        <item>1765</item>
+        <item>1880</item>
+        <item>3000</item>
+    </string-array>
+    <string-array name="food_one_desc">
+        <item>Private Dining</item>
+        <item>Wheelchair Accessible</item>
+        <item>Outdoor Seating</item>
+        <item>Serves Alcohol, Wine and Beer</item>
+        <item>Free Wifi</item>
+        <item>Table Service</item>
+        <item>Nightlife</item>
+        <item>Parking Available</item>
+        <item>Smoking Area</item>
+    </string-array>
+    <string-array name="food_two_desc">
+        <item>Indoor Seating</item>
+        <item>Serves Alcohol, Wine and Beer</item>
+        <item>Free Wifi</item>
+        <item>Parking Available</item>
+        <item>Table Service</item>
+        <item>Smoking Area</item>
+    </string-array>
+    <string-array name="food_three_desc">
+        <item>Indoor Seating</item>
+        <item>Parking Available</item>
+        <item>Serves Alcohol</item>
+        <item>Live Music</item>
+        <item>Table Service</item>
+        <item>Smoking Area</item>
+    </string-array>
+    <string-array name="food_four_desc">
+        <item>Indoor Seating</item>
+        <item>Parking Available</item>
+        <item>Live Music</item>
+        <item>Table Service</item>
+        <item>Party Pre-Booking Available</item>
+    </string-array>
+
+    <string-array name="concert_about">
+        <item>Listen to some fantastic music in the voice of the popular playback singer KK. Singing in multiple languages, KK is best known for giving music for movies like Hum Dil De Chuke Sanam, Gangster and many more. His songs Tu Hi Meri Shab Hai and Dus Bahane, amongst many others, were super hits. </item>
+        <item>Imagine Dragons is an American pop rock band from Las Vegas, Nevada, consisting of lead singer Dan Reynolds, lead guitarist Wayne Sermon, bassist Ben McKee, and drummer Daniel Platzman. Imagine Dragons are undisputed kings of Las Vegas. Since releasing their 2012 debut album Night Visions, Imagine Dragons have been touring relentlessly moving into the realm of international stardom. Considering the breakthrough band of 2013 and the biggest band of 2017.</item>
+        <item>Gully Boy fans, Vivian aka Divine the award-winning rap artist grew immensely popular as an underground artist and has been winning hearts for his raw, hard-hitting lyrics, street slangs and killer beats. </item>
+        <item>Hey slim shadys ready for some Marshall Bruce Mathers III AKA Eminems award-winning raps, where you can enjoy listing from RapGod to MockingBird live at your doorsteps book and spread the Eminem Venom</item>
+    </string-array>
+    <string-array name="concert_price">
+        <item>450000</item>
+        <item>2000000</item>
+        <item>550000</item>
+        <item>2550000</item>
+    </string-array>
+
+    <string-array name="concert_one_desc">
+        <item>Listen To </item>
+        <item>Tu Jo Mila</item>
+        <item>Dil Kyun Yeh Mera</item>
+        <item>Khuda Janee</item>
+        <item>Ankhon Mei Teri</item>
+        <item>Haan Tu Hain</item>
+        <item>Pyaar Ke Pal</item>
+        <item>Zara Sa</item>
+        <item>Dil Ibadat</item>
+        <item>And Many More.....</item>
+    </string-array>
+    <string-array name="concert_two_desc">
+        <item>Listen To </item>
+        <item>Believer</item>
+        <item>Demons</item>
+        <item>Thunder</item>
+        <item>Whatever It Takes</item>
+        <item>Natural</item>
+        <item>Shots</item>
+        <item>Its Time</item>
+        <item>And Many More.....</item>
+    </string-array>
+    <string-array name="concert_three_desc">
+        <item>Listen To </item>
+        <item>One Side</item>
+        <item>Chal Bombay</item>
+        <item>Kaam 25</item>
+        <item>Punya Paap</item>
+        <item>Mirchi</item>
+        <item>Mere Gully Mein</item>
+        <item>Kohinoor</item>
+        <item>And Many More.....</item>
+    </string-array>
+    <string-array name="concert_four_desc">
+        <item>Listen To </item>
+        <item>Mockingbird</item>
+        <item>The Real Slim Shady</item>
+        <item>Sing for the Moment</item>
+        <item>Till I Collapse</item>
+        <item>Rap God</item>
+        <item>Lose Yourself</item>
+        <item>Stan</item>
+        <item>And Many More.....</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,193 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerlayout"
+    tools:context=".Home"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.Evento"
+    android:background="@drawable/home_bk_gradiant"
+    tools:openDrawer="start"
+    >
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="start"
+        app:itemIconTint="@color/brown"
+        style="@style/navigationTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        />
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <ScrollView
+         android:id="@+id/scrollView2"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginBottom="20dp"
+         android:fillViewport="true"
+         android:scrollbars="none"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+         <androidx.constraintlayout.widget.ConstraintLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+             <androidx.appcompat.widget.Toolbar
+                 android:id="@+id/toolbar"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 app:navigationIcon="@drawable/baseline_menu_24"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintHorizontal_bias="0.0"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toTopOf="parent"
+                 app:layout_constraintVertical_bias="0.024">
+                 <androidx.constraintlayout.widget.ConstraintLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     >
+                     <LinearLayout
+                         android:id="@+id/profileIcon"
+                         android:layout_width="45dp"
+                         android:layout_height="45dp"
+                         android:layout_gravity="right"
+                         android:background="@drawable/searchbox_bk"
+                         android:gravity="center"
+                         app:layout_constraintBottom_toBottomOf="parent"
+                         app:layout_constraintEnd_toEndOf="parent"
+                         app:layout_constraintHorizontal_bias="0.956"
+                         app:layout_constraintStart_toStartOf="parent"
+                         app:layout_constraintTop_toTopOf="parent"
+                         app:layout_constraintVertical_bias="0.545">
+
+                         <de.hdodenhof.circleimageview.CircleImageView
+                             android:id="@+id/profilepic"
+                             android:layout_width="40dp"
+                             android:layout_height="40dp"
+                             android:src="@drawable/baseline_person_24" />
+
+                     </LinearLayout>
+                 </androidx.constraintlayout.widget.ConstraintLayout>
+             </androidx.appcompat.widget.Toolbar>
+
+             <LinearLayout
+                 android:id="@+id/search_bar"
+                 android:layout_width="match_parent"
+                 android:layout_height="45dp"
+                 android:layout_margin="10dp"
+                 android:gravity="center"
+                 android:orientation="horizontal"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintHorizontal_bias="0.157"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                 app:layout_constraintVertical_bias="0.005">
+
+                 <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="@drawable/searchbox_bk">
+
+                     <ImageView
+                         android:layout_width="40dp"
+                         android:layout_height="match_parent"
+                         android:layout_marginLeft="10dp"
+                         android:src="@drawable/baseline_search_24" />
+
+                     <EditText
+                         android:id="@+id/searchInputBox"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:layout_marginLeft="50dp"
+                         android:layout_marginRight="20dp"
+                         android:inputType="text"
+                         android:background="@color/transparent"
+                         android:textColor="@color/white"
+                         android:hint="Search all events..."
+                         android:paddingLeft="10dp"
+                         android:textColorHint="@color/white"
+                         android:textSize="16sp"
+                         />
+
+                 </RelativeLayout>
+
+             </LinearLayout>
+
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/recyclerView1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginTop="20dp"
+                 android:layout_marginRight="10dp"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintHorizontal_bias="0.157"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/search_bar"
+                 app:layout_constraintVertical_bias="0.0" />
+
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/recyclerView2"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginTop="20dp"
+                 android:layout_marginRight="10dp"
+                 android:paddingBottom="50dp"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintHorizontal_bias="0.526"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/recyclerView1"
+                 app:layout_constraintVertical_bias="0.0"
+                 tools:listitem="@layout/events" />
+
+         </androidx.constraintlayout.widget.ConstraintLayout>
+
+     </ScrollView>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:elevation="10dp"
+         android:background="@drawable/top_corner_both_brown"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="1.0">
+         <com.google.android.material.bottomnavigation.BottomNavigationView
+             android:id="@+id/bottom_nav"
+             app:elevation="3dp"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             app:menu="@menu/bottom_nav"
+             app:itemRippleColor="@color/white"
+             app:itemIconTint="@color/white"
+             android:background="@color/transparent"
+             app:itemIconSize="35dp"
+             >
+         </com.google.android.material.bottomnavigation.BottomNavigationView>
+     </LinearLayout>
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
